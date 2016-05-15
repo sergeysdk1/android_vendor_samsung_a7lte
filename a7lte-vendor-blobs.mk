@@ -175,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/a7lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/a7lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/samsung/a7lte/proprietary/lib/hw/nfc_nci.MSM8939.so:system/lib/hw/nfc_nci.MSM8939.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
