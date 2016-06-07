@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/a7lte/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/a7lte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/a7lte/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/samsung/a7lte/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/a7lte/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
     vendor/samsung/a7lte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/samsung/a7lte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
