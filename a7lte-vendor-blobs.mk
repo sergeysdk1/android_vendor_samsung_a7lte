@@ -175,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/a7lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/a7lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/samsung/a7lte/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
     vendor/samsung/a7lte/proprietary/lib/hw/nfc_nci.MSM8939.so:system/lib/hw/nfc_nci.MSM8939.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -197,6 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/a7lte/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/a7lte/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/samsung/a7lte/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/samsung/a7lte/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/a7lte/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/a7lte/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
