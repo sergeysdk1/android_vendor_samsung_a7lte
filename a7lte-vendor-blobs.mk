@@ -30,13 +30,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/a7lte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/a7lte/proprietary/lib/libsamsungRecord_zoom.so:system/lib/libsamsungRecord_zoom.so \
-    vendor/samsung/a7lte/proprietary/lib/lib_SamsungRec_V04012.so:system/lib/lib_SamsungRec_V04012.so \
-    vendor/samsung/a7lte/proprietary/lib/lib_SamsungVAD_v01007.so:system/lib/lib_SamsungVAD_v01007.so \
+    vendor/samsung/a7lte/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
+    vendor/samsung/a7lte/proprietary/lib/lib_SamsungVAD_v01009.so:system/lib/lib_SamsungVAD_v01009.so \
     vendor/samsung/a7lte/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
     vendor/samsung/a7lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/a7lte/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-    vendor/samsung/a7lte/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
-    vendor/samsung/a7lte/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
+    vendor/samsung/a7lte/proprietary/lib/lib_SoundAlive_play_vol_ver125e.so:system/lib/lib_SoundAlive_play_vol_ver125e.so \
+    vendor/samsung/a7lte/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
     vendor/samsung/a7lte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
     vendor/samsung/a7lte/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
     vendor/samsung/a7lte/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/a7lte/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/samsung/a7lte/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+    vendor/samsung/a7lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/a7lte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/a7lte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/a7lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
@@ -59,11 +59,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/a7lte/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/a7lte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/a7lte/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/a7lte/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/samsung/a7lte/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
     vendor/samsung/a7lte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/a7lte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/a7lte/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
+    vendor/samsung/a7lte/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/a7lte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/samsung/a7lte/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
@@ -175,8 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/a7lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/a7lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/samsung/a7lte/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
-    vendor/samsung/a7lte/proprietary/lib/hw/nfc_nci.MSM8939.so:system/lib/hw/nfc_nci.MSM8939.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -188,8 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/samsung/a7lte/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/samsung/a7lte/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/samsung/a7lte/proprietary/lib/libRSDriver.so:system/lib/libRSDriver.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
@@ -198,13 +194,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/a7lte/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/a7lte/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/a7lte/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
-    vendor/samsung/a7lte/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/samsung/a7lte/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/samsung/a7lte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/samsung/a7lte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/a7lte/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/a7lte/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/samsung/a7lte/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/samsung/a7lte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -213,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/samsung/a7lte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/a7lte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/samsung/a7lte/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
@@ -233,7 +226,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/samsung/a7lte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/samsung/a7lte/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/a7lte/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/a7lte/proprietary/bin/rfs_access:system/bin/rfs_access \
@@ -252,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/a7lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/a7lte/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/samsung/a7lte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -269,15 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/a7lte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/a7lte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-    vendor/samsung/a7lte/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/samsung/a7lte/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/samsung/a7lte/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/samsung/a7lte/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/samsung/a7lte/proprietary/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/samsung/a7lte/proprietary/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/samsung/a7lte/proprietary/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/samsung/a7lte/proprietary/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/samsung/a7lte/proprietary/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/samsung/a7lte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/a7lte/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
