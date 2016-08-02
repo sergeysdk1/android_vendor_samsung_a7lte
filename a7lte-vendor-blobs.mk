@@ -176,6 +176,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/a7lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/samsung/a7lte/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/samsung/a7lte/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/samsung/a7lte/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/samsung/a7lte/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
@@ -192,7 +196,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a7lte/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/samsung/a7lte/proprietary/lib/libRSDriver.so:system/lib/libRSDriver.so \
+    vendor/samsung/a7lte/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/samsung/a7lte/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/a7lte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/a7lte/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
