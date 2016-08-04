@@ -24,7 +24,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libmm-abl
 
-PRODUCT_PACKAGES += \
-    libHevcSwDecoder
-
 $(call inherit-product, vendor/samsung/a7lte/a7lte-vendor-blobs.mk)
