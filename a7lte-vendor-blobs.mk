@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
     $(LOCAL_PATH)/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
+    $(LOCAL_PATH)/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
@@ -83,6 +84,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     $(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     $(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    $(LOCAL_PATH)/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
+    $(LOCAL_PATH)/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9804_a7_camera.so:system/vendor/lib/libactuator_dw9804_a7_camera.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9804_a7_camcorder.so:system/vendor/lib/libactuator_dw9804_a7_camcorder.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -105,6 +108,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:system/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -224,9 +228,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
 
 # Graphics firmware
@@ -327,14 +328,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     $(LOCAL_PATH)/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     $(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so
-
-# Keymaster Firmware
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
 # Time services
 PRODUCT_COPY_FILES += \
