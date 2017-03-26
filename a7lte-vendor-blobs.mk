@@ -256,7 +256,8 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
+    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.MSM8939.so:system/lib/hw/nfc_nci.MSM8939.so
 
 # Qualcomm framework
 PRODUCT_COPY_FILES += \
