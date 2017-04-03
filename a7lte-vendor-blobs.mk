@@ -328,7 +328,35 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     $(LOCAL_PATH)/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     $(LOCAL_PATH)/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    $(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so
+    $(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+    $(LOCAL_PATH)/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    $(LOCAL_PATH)/proprietary/lib/libarcsoft_magicshot_common_T.so:system/lib/libarcsoft_magicshot_common_T.so \
+    $(LOCAL_PATH)/proprietary/lib/libarcsoft_preprocessor_T.so:system/lib/libarcsoft_preprocessor_T.so \
+    $(LOCAL_PATH)/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
+    $(LOCAL_PATH)/proprietary/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so \
+    $(LOCAL_PATH)/proprietary/lib/libcameraservice_cameramodule.so:system/lib/libcameraservice_cameramodule.so \
+    $(LOCAL_PATH)/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
+    $(LOCAL_PATH)/proprietary/lib/libexifa.so:system/lib/libexifa.so \
+    $(LOCAL_PATH)/proprietary/lib/libpalmMobileDetectorFull.so:system/lib/libpalmMobileDetectorFull.so \
+    $(LOCAL_PATH)/proprietary/lib/libquramresize.so:system/lib/libquramresize.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
+    $(LOCAL_PATH)/proprietary/lib/libsccore.so:system/lib/libsccore.so \
+    $(LOCAL_PATH)/proprietary/lib/libsecface.so:system/lib/libsecface.so \
+    $(LOCAL_PATH)/proprietary/lib/libsecimaging.so:system/lib/libsecimaging.so \
+    $(LOCAL_PATH)/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
+    $(LOCAL_PATH)/proprietary/lib/libSEF.so:system/lib/libSEF.so \
+    $(LOCAL_PATH)/proprietary/lib/libSEFManager_jni_T.so:system/lib/libSEFManager_jni_T.so \
+    $(LOCAL_PATH)/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so
+
+# Keymaster Firmware
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
 # Time services
 PRODUCT_COPY_FILES += \
