@@ -34,16 +34,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    $(LOCAL_PATH)/proprietary/lib/libsamsungRecord_zoom.so:system/lib/libsamsungRecord_zoom.so \
-    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
-    $(LOCAL_PATH)/proprietary/lib/lib_SamsungVAD_v01009.so:system/lib/lib_SamsungVAD_v01009.so \
-    $(LOCAL_PATH)/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V05001.so:system/lib/lib_SamsungRec_V05001.so \
     $(LOCAL_PATH)/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     $(LOCAL_PATH)/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
     $(LOCAL_PATH)/proprietary/lib/lib_SoundAlive_play_vol_ver125e.so:system/lib/lib_SoundAlive_play_vol_ver125e.so \
     $(LOCAL_PATH)/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
     $(LOCAL_PATH)/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-    $(LOCAL_PATH)/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     $(LOCAL_PATH)/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     $(LOCAL_PATH)/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
@@ -253,11 +249,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so
-
-# NFC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.MSM8939.so:system/lib/hw/nfc_nci.MSM8939.so
 
 # Qualcomm framework
 PRODUCT_COPY_FILES += \
